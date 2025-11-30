@@ -46,8 +46,8 @@ const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-md w-full bg-white p-8 rounded-xl shadow-lg">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-slate-800">EduLink</h1>
+        <div className="text-center  mb-8">
+          <h1 className="text-3xl font-bold text-blue-600">EduLink</h1>
           <p className="text-slate-500 mt-2">School Monitoring System</p>
         </div>
 
@@ -91,7 +91,7 @@ const Login = () => {
         </form>
 
         <div className="mt-6 text-center text-sm text-gray-500">
-          Don't have an account? <span className="text-blue-600">Contact School Admin</span>
+          Don't have an account? Contact<span className="text-blue-600"> admin@edulink.com</span>
         </div>
       </div>
     </div>
